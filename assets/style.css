@@ -84,7 +84,6 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
-	font-size: 1.75rem;
 	line-height: 1.2;
 }
 #about-me p {
@@ -259,11 +258,8 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me blockquote, #about-me p {
 		width: 100%;
-	}
-	.about-me__introduction {
-		font-size: calc(1.3rem + 0,6vw);
 	}
 	
 	.quote__text {
